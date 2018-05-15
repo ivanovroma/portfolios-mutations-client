@@ -133,7 +133,6 @@ export default {
       this.$store.dispatch('portfolios/removeAsset', { id: this.id })
       this.checkDelete = false
       this.editAssetDialog = false
-      // Comment
 
     },
 

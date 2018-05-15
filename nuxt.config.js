@@ -3,6 +3,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  mode: 'spa',
   head: {
     title: 'Portfolios - Mutations.me',
     meta: [
