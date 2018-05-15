@@ -160,7 +160,7 @@ export default {
 
   created () {
 
-    this.newAmount = this.sizeAsset
+    this.newAmount = this.amount
     this.newBuyPrice = this.buyPrice
 
   }

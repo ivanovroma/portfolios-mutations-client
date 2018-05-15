@@ -52,8 +52,8 @@
                   :id="props.item.id"
                   :name="props.item.name"
                   :symbol="props.item.symbol"
-                  :sizeAsset="props.item.sizeAsset"
-                  :entryPrice="props.item.entryPrice"
+                  :amount="props.item.amount"
+                  :buyPrice="props.item.buyPrice"
                 )
         
         v-divider
