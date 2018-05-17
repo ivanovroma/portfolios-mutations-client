@@ -80,9 +80,9 @@
     data () {
 
       return {
-        email: 'fff@dddd.rr',
-        password: '12345678',
-        repeatPassword: '12345678',
+        email: '',
+        password: '',
+        repeatPassword: '',
         passwordVisible: true,
         buttonLoading: false,
         valid: true,

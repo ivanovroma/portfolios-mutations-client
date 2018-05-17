@@ -1,9 +1,10 @@
 import axios from 'axios'
+import env from '../env.js'
 
 export default () => {
 
   var options = {
-    baseURL: `http://188.225.74.38:1337/api`,
+    baseURL: `${env.server}/api`,
     headers: {
       'Content-Type': 'application/json'
     }
