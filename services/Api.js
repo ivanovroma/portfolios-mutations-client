@@ -3,7 +3,7 @@ import axios from 'axios'
 export default () => {
 
   var options = {
-    baseURL: `http://188.225.74.38/api`,
+    baseURL: `http://188.225.74.38:1337/api`,
     headers: {
       'Content-Type': 'application/json'
     }
